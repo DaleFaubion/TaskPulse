@@ -1,0 +1,21 @@
+I want to add an ability so users can set their own habits to track, 
+and put their own notifications on them so they can quickly check in
+and enter a datapoint they want to track.
+
+Also want to add a place for more things like sleep tracking (maybe 
+caffiene tracking, caloric intake ...)
+
+I want to make a screen where users can check their progress for the week,
+so far, and maybe the week before that. They can quickly see what days 
+they hit their goals on. I'd like to see graphs and more visual data on 
+their progress. Could have it go to 1, 3, 6, or 12 months. It would be 
+nice to see trends, for example if they are doing better on Mondays 
+than they used to, and if their overall average is going up or down. 
+We could have a color coded calendar showing days they met their 
+goals and days they didn't.
+
+I want to add a small widget so the user can see some of their 
+progress on their homescreen, and be able to quickly add a data
+point for a habit they are tracking, or check in for their 
+walk/sleep/etc.
+

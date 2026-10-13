@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/widget_bg"
+    android:padding="12dp">
+
+    <!-- Header Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TaskPulse ⚡"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/widget_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today: ☕ 0 • ⚡ 0 • 💧 0ml"
+                android:textColor="#06B6D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_widget_open_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App ↗"
+            android:textColor="#94A3B8"
+            android:background="@drawable/widget_button_bg"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Divider using RemoteViews-compatible ImageView -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#223048"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 1-Tap Quick Log Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_widget_coffee"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="+☕ Coffee"
+            android:textSize="11sp"
+            android:textColor="#F59E0B"
+            android:textStyle="bold"
+            android:background="@drawable/widget_button_bg" />
+
+        <TextView
+            android:id="@+id/btn_widget_energy"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:text="+⚡ Energy"
+            android:textSize="11sp"
+            android:textColor="#F43F5E"
+            android:textStyle="bold"
+            android:background="@drawable/widget_button_bg" />
+
+        <TextView
+            android:id="@+id/btn_widget_water"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:text="+💧 Water"
+            android:textSize="11sp"
+            android:textColor="#06B6D4"
+            android:textStyle="bold"
+            android:background="@drawable/widget_button_bg" />
+    </LinearLayout>
+</LinearLayout>
